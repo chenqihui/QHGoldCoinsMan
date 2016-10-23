@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74639EB01DB500BC00DFAC6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74639EAF1DB500BC00DFAC6A /* main.m */; };
+		74639EB31DB500BC00DFAC6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74639EB21DB500BC00DFAC6A /* AppDelegate.m */; };
+		74639EB61DB500BC00DFAC6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74639EB51DB500BC00DFAC6A /* ViewController.m */; };
+		74639EB91DB500BC00DFAC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74639EB71DB500BC00DFAC6A /* Main.storyboard */; };
+		74639EBB1DB500BC00DFAC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74639EBA1DB500BC00DFAC6A /* Assets.xcassets */; };
+		74639EBE1DB500BC00DFAC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74639EBC1DB500BC00DFAC6A /* LaunchScreen.storyboard */; };
+		74A9F2E61DBD0A8300894C6F /* QHCoinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A9F2DD1DBD0A8300894C6F /* QHCoinView.m */; };
+		74A9F2E71DBD0A8300894C6F /* QHFireworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A9F2DF1DBD0A8300894C6F /* QHFireworkView.m */; };
+		74A9F2E81DBD0A8300894C6F /* QHGoldCoinsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A9F2E11DBD0A8300894C6F /* QHGoldCoinsView.m */; };
+		74A9F2E91DBD0A8300894C6F /* QHGoldCoinsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74A9F2E21DBD0A8300894C6F /* QHGoldCoinsView.xib */; };
+		74A9F2EA1DBD0A8300894C6F /* QHUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A9F2E51DBD0A8300894C6F /* QHUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74639EAB1DB500BC00DFAC6A /* QHGoldCoinsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHGoldCoinsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74639EAF1DB500BC00DFAC6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74639EB11DB500BC00DFAC6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74639EB21DB500BC00DFAC6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74639EB41DB500BC00DFAC6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74639EB51DB500BC00DFAC6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74639EB81DB500BC00DFAC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74639EBA1DB500BC00DFAC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74639EBD1DB500BC00DFAC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74639EBF1DB500BC00DFAC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A9F2DC1DBD0A8300894C6F /* QHCoinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHCoinView.h; sourceTree = "<group>"; };
+		74A9F2DD1DBD0A8300894C6F /* QHCoinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHCoinView.m; sourceTree = "<group>"; };
+		74A9F2DE1DBD0A8300894C6F /* QHFireworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHFireworkView.h; sourceTree = "<group>"; };
+		74A9F2DF1DBD0A8300894C6F /* QHFireworkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHFireworkView.m; sourceTree = "<group>"; };
+		74A9F2E01DBD0A8300894C6F /* QHGoldCoinsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHGoldCoinsView.h; sourceTree = "<group>"; };
+		74A9F2E11DBD0A8300894C6F /* QHGoldCoinsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHGoldCoinsView.m; sourceTree = "<group>"; };
+		74A9F2E21DBD0A8300894C6F /* QHGoldCoinsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHGoldCoinsView.xib; sourceTree = "<group>"; };
+		74A9F2E41DBD0A8300894C6F /* QHUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHUtil.h; sourceTree = "<group>"; };
+		74A9F2E51DBD0A8300894C6F /* QHUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74639EA81DB500BC00DFAC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74639EA21DB500BC00DFAC6A = {
+			isa = PBXGroup;
+			children = (
+				74639EAD1DB500BC00DFAC6A /* QHGoldCoinsDemo */,
+				74639EAC1DB500BC00DFAC6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74639EAC1DB500BC00DFAC6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74639EAB1DB500BC00DFAC6A /* QHGoldCoinsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74639EAD1DB500BC00DFAC6A /* QHGoldCoinsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74A9F2DB1DBD0A8300894C6F /* QHGoldCoinsMan */,
+				74639EB11DB500BC00DFAC6A /* AppDelegate.h */,
+				74639EB21DB500BC00DFAC6A /* AppDelegate.m */,
+				74639EB41DB500BC00DFAC6A /* ViewController.h */,
+				74639EB51DB500BC00DFAC6A /* ViewController.m */,
+				74639EB71DB500BC00DFAC6A /* Main.storyboard */,
+				74639EBA1DB500BC00DFAC6A /* Assets.xcassets */,
+				74639EBC1DB500BC00DFAC6A /* LaunchScreen.storyboard */,
+				74639EBF1DB500BC00DFAC6A /* Info.plist */,
+				74639EAE1DB500BC00DFAC6A /* Supporting Files */,
+			);
+			path = QHGoldCoinsDemo;
+			sourceTree = "<group>";
+		};
+		74639EAE1DB500BC00DFAC6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74639EAF1DB500BC00DFAC6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74A9F2DB1DBD0A8300894C6F /* QHGoldCoinsMan */ = {
+			isa = PBXGroup;
+			children = (
+				74A9F2DC1DBD0A8300894C6F /* QHCoinView.h */,
+				74A9F2DD1DBD0A8300894C6F /* QHCoinView.m */,
+				74A9F2DE1DBD0A8300894C6F /* QHFireworkView.h */,
+				74A9F2DF1DBD0A8300894C6F /* QHFireworkView.m */,
+				74A9F2E01DBD0A8300894C6F /* QHGoldCoinsView.h */,
+				74A9F2E11DBD0A8300894C6F /* QHGoldCoinsView.m */,
+				74A9F2E21DBD0A8300894C6F /* QHGoldCoinsView.xib */,
+				74A9F2E31DBD0A8300894C6F /* QHUtil */,
+			);
+			path = QHGoldCoinsMan;
+			sourceTree = SOURCE_ROOT;
+		};
+		74A9F2E31DBD0A8300894C6F /* QHUtil */ = {
+			isa = PBXGroup;
+			children = (
+				74A9F2E41DBD0A8300894C6F /* QHUtil.h */,
+				74A9F2E51DBD0A8300894C6F /* QHUtil.m */,
+			);
+			path = QHUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74639EAA1DB500BC00DFAC6A /* QHGoldCoinsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74639EC21DB500BC00DFAC6A /* Build configuration list for PBXNativeTarget "QHGoldCoinsDemo" */;
+			buildPhases = (
+				74639EA71DB500BC00DFAC6A /* Sources */,
+				74639EA81DB500BC00DFAC6A /* Frameworks */,
+				74639EA91DB500BC00DFAC6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHGoldCoinsDemo;
+			productName = QHGoldCoinsDemo;
+			productReference = 74639EAB1DB500BC00DFAC6A /* QHGoldCoinsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74639EA31DB500BC00DFAC6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = chen;
+				TargetAttributes = {
+					74639EAA1DB500BC00DFAC6A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 74639EA61DB500BC00DFAC6A /* Build configuration list for PBXProject "QHGoldCoinsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74639EA21DB500BC00DFAC6A;
+			productRefGroup = 74639EAC1DB500BC00DFAC6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74639EAA1DB500BC00DFAC6A /* QHGoldCoinsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74639EA91DB500BC00DFAC6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74639EBE1DB500BC00DFAC6A /* LaunchScreen.storyboard in Resources */,
+				74639EBB1DB500BC00DFAC6A /* Assets.xcassets in Resources */,
+				74A9F2E91DBD0A8300894C6F /* QHGoldCoinsView.xib in Resources */,
+				74639EB91DB500BC00DFAC6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74639EA71DB500BC00DFAC6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A9F2E81DBD0A8300894C6F /* QHGoldCoinsView.m in Sources */,
+				74A9F2E61DBD0A8300894C6F /* QHCoinView.m in Sources */,
+				74639EB61DB500BC00DFAC6A /* ViewController.m in Sources */,
+				74639EB31DB500BC00DFAC6A /* AppDelegate.m in Sources */,
+				74A9F2E71DBD0A8300894C6F /* QHFireworkView.m in Sources */,
+				74A9F2EA1DBD0A8300894C6F /* QHUtil.m in Sources */,
+				74639EB01DB500BC00DFAC6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74639EB71DB500BC00DFAC6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74639EB81DB500BC00DFAC6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74639EBC1DB500BC00DFAC6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74639EBD1DB500BC00DFAC6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74639EC01DB500BC00DFAC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74639EC11DB500BC00DFAC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74639EC31DB500BC00DFAC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QHGoldCoinsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.goldcoins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74639EC41DB500BC00DFAC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QHGoldCoinsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.goldcoins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74639EA61DB500BC00DFAC6A /* Build configuration list for PBXProject "QHGoldCoinsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74639EC01DB500BC00DFAC6A /* Debug */,
+				74639EC11DB500BC00DFAC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74639EC21DB500BC00DFAC6A /* Build configuration list for PBXNativeTarget "QHGoldCoinsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74639EC31DB500BC00DFAC6A /* Debug */,
+				74639EC41DB500BC00DFAC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74639EA31DB500BC00DFAC6A /* Project object */;
+}
